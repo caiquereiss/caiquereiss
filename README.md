@@ -8,7 +8,6 @@
 - 🚀 Discover / Ignite - RocketSeat
 - 🧠 Aprender para ensinar, tenho como objetivo;
 - ✨ Sei onde quero chegar e esse caminho  me reserva ensinamentos rumo ao meu desenvolvimento;
-- 🏡 Localidade: Vitória - Espirito Santos;
 
 
 ## 📫 Contato:
