@@ -5,8 +5,8 @@
 - 🛠 JavaScript | NodeJS | Sql | Html | Css;
 - 🧑🏾‍💻 Full-stack Júnior;
 - 📝 Graduando em Sistemas de informação;
-- 🚀 Discover / Ignite - RocketSeat
-- 🧠 Aprender para ensinar, tenho como objetivo;
+- 🚀 Discover / Ignite - RocketSeat;
+- 🧠 Aprender para ensinar;
 - ✨ Sei onde quero chegar e esse caminho  me reserva ensinamentos rumo ao meu desenvolvimento;
 
 
