@@ -8,6 +8,7 @@
 - 🚀 Discover / Ignite - RocketSeat
 - 🧠 Aprender para ensinar, tenho como objetivo;
 - ✨ Sei onde quero chegar e esse caminho  me reserva ensinamentos rumo ao meu desenvolvimento;
+- 🏡 Localidade: Vitória - Espirito Santos;
 
 
 ## 📫 Contato:
@@ -39,7 +40,8 @@
   <img align="right" alt="Caique-pic" height="150" style="border-radius:50px;"
        src="https://media.discordapp.net/attachments/801440645641273345/940056005662871572/IMG_1269_1.png?width=676&height=676">
   
-  ##
+  ## Localidade
+  🏡 Vitória - Espirito Santos;
  
 
 
