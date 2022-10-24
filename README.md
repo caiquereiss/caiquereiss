@@ -2,7 +2,7 @@
 
 
 - 💻 Desenvolvedor web;
-- 🛠 JavaScript | NodeJS | Sql | Html | Css;
+- 🛠 JavaScript | TypeScript| NodeJS | Angular| Sql | Html | Css
 - 🧑🏾‍💻 Full-stack Júnior;
 - 📝 Graduando em Sistemas de informação;
 - 🚀 Discover / Ignite - RocketSeat;
