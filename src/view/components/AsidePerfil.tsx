@@ -34,7 +34,9 @@ export function AsidePerfil() {
             <TwitterLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
           </a>
         </section>
-        <Button className='bg-indigo-250 font-semibold text-base'>Contate-me</Button>
+        <a href="https://api.whatsapp.com/send?phone=27999814325" target="_blank" rel="noopener noreferrer">
+          <Button className='bg-indigo-250 font-semibold text-base'>Contate-me</Button>
+        </a>
       </div>
     </div>
   )

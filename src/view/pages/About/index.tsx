@@ -78,7 +78,7 @@ export function About() {
         </div>
 
 
-        <div className="">
+        <div>
           {selectedTab === 'education' && (
 
             <Swiper className="relative"
@@ -137,11 +137,42 @@ export function About() {
 
           )}
           {selectedTab === 'work' && (
-            <CardQualification
-              title="Consys Vgm"
-              subtitle="Vila Velha - Es"
-              year="2017 - 2022"
-            />
+            // <CardQualification
+            //   title="Consys Vgm"
+            //   subtitle="Vila Velha - Es"
+            //   year="2017 - 2022"
+            // />
+            <Swiper className="relative"
+              spaceBetween={16}
+              slidesPerView={windowWidth >= 540 ? 4 : 1.6}
+              onSlideChange={swiper => {
+                setSliderState({
+                  isBeginning: swiper.isBeginning,
+                  isEnd: swiper.isEnd
+                })
+              }}
+            >
+              <div slot="container-start">
+                <SliderNavigation
+                  isBeginning={sliderState.isBeginning}
+                  isEnd={sliderState.isEnd}
+                />
+              </div>
+              <SwiperSlide >
+                <CardQualification
+                  title="Sistema de informação"
+                  subtitle="Vitória - Unisales"
+                  year="2018 - 2022"
+                />
+              </SwiperSlide>
+              <SwiperSlide >
+                <CardQualification
+                  title="Sistema de informação"
+                  subtitle="Vitória - Unisales"
+                  year="2018 - 2022"
+                />
+              </SwiperSlide>
+            </Swiper>
           )}
         </div>
       </section >
