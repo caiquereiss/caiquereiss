@@ -1,4 +1,4 @@
-import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon } from "@radix-ui/react-icons"
+import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon } from "@radix-ui/react-icons";
 import { useState } from "react"
 import { cn } from "../../../app/utils/cn"
 import { CardQualification } from "./components/Card/CardQualification"
@@ -17,7 +17,7 @@ export function About() {
   })
   return (
     <div className="w-full h-full py-16 px-8">
-      <section className="">
+      <section>
         <h1 className="font-semibold text-3xl text-indigo-250 text-left">Sobre</h1>
         <p className="font-medium text-sm text-gray-650 text-left lg:w-[740px] ">Desenvolvedor web apaixonado em  resolver problemas com código. Atuando com tecnologias web/mobile, entregando um trabalho de qualidade.</p>
       </section>
@@ -34,7 +34,7 @@ export function About() {
         <div className="h-[150px] w-[200px] flex justify-around flex-col">
           <ArchiveIcon className="text-gray-350 w-5 h-5" />
           <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
-            <span className="font-medium text-sm text-gray-350">Projetos concluído</span>
+            <span className="font-medium text-sm text-gray-350">Projetos concluídos</span>
             <span className="font-bold text-3xl text-gray-350 flex items-end">5</span>
           </p>
         </div>
@@ -42,7 +42,7 @@ export function About() {
         <div className="h-[150px] w-[200px] flex justify-around flex-col">
           <HomeIcon className="text-gray-350 w-5 h-5" />
           <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
-            <span className="font-medium text-sm text-gray-350">Empresas Trabalhadas</span>
+            <span className="font-medium text-sm text-gray-350">Empresas trabalhadas</span>
             <span className="font-bold text-3xl text-gray-350 flex items-end">2</span>
           </p>
         </div>

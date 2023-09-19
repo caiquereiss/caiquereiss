@@ -35,29 +35,29 @@ export function Header() {
           </button>
         </div>
         <div className="hidden md:flex space-x-4 text-base font-semibold uppercase">
-          <a href="/" className="py-1  hover:text-indigo-250">
+          <Link to="/" className="py-1  hover:text-indigo-250">
             Sobre
-          </a>
-          <a href="/skills" className="py-1  hover:text-indigo-250">
+          </Link>
+          <Link to="/skills" className="py-1  hover:text-indigo-250">
             Habilidades
-          </a>
-          <a href="/portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-250">
+          </Link>
+          <Link to="/portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-250">
             Portfólio
-          </a>
+          </Link>
         </div>
       </div >
       {
         isMenuOpen && (
           <div className="md:hidden mt-4 space-y-2  text-base font-semibold uppercase">
-            <a href="/" className="block hover:text-indigo-250">
+            <Link to="/" className="block hover:text-indigo-250">
               Sobre
-            </a>
+            </Link>
             <Link to="/skills" className="block hover:text-indigo-250">
               Habilidades
             </Link>
-            <a href="/portfolio" className="block hover:text-indigo-250">
+            <Link to="/portfolio" className="block hover:text-indigo-250">
               Portfólio
-            </a>
+            </Link>
           </div>
         )
       }

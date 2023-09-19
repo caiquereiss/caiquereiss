@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import { Header } from "../components/Header/Header";
 import { AsidePerfil } from "../components/AsidePerfil";
 
+
 export function AuthLayout() {
   return (
     // <div className="flex w-full h-full  overflow-y-auto md:overflow-hidden  flex-col">

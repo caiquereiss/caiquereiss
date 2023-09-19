@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.wave-change-skills {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 0;
+    top: 0;
+    animation: change 12s infinite linear;
+}
+.wave-change-skills::before,
+.wave-change-skills::after {
+  --animation-duration: 7s;
+  --rotation-degrees: 0deg;
+        width:300px;
+        height:300px;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-color: rgba(255, 255, 255, .6);
+        border-radius: 45% 47% 43% 46%;
+        transform: translate(-50%, -70%) rotate(var(--rotation-degrees)); /* Use a variável para a rotação */
+        animation: rotate var(--animation-duration) linear;
+        z-index: 1;
+    }
+
+    .wave-change-skills::after {
+        border-radius: 47% 42% 46% 44%;
+        background-color: rgba(255, 255, 255, .8);
+        transform: translate(-50%, -70%) rotate(0);
+        animation: rotate 9s linear -4s infinite;
+        z-index: 2;
+    }
+.wave-skills {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    opacity: 0.8;
+
+}
+
+
+
+@keyframes rotate {
+ 50% {
+        transform: translate(-50%, -73%) rotate(180deg);
+    } 100% {
+        transform: translate(-50%, -70%) rotate(360deg);
+    }
+}
