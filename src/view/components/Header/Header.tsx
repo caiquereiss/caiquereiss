@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useHeaderController } from "./useHeaderController"
 
 export function Header() {
@@ -35,29 +34,29 @@ export function Header() {
           </button>
         </div>
         <div className="hidden md:flex space-x-4 text-base font-semibold uppercase">
-          <Link to="/" className="py-1  hover:text-indigo-250">
+          <a href="#about" className="py-1  hover:text-indigo-250">
             Sobre
-          </Link>
-          <Link to="/skills" className="py-1  hover:text-indigo-250">
+          </a>
+          <a href="#skills" className="py-1  hover:text-indigo-250">
             Habilidades
-          </Link>
-          <Link to="/portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-250">
+          </a>
+          <a href="#portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-250">
             Portfólio
-          </Link>
+          </a>
         </div>
       </div >
       {
         isMenuOpen && (
           <div className="md:hidden mt-4 space-y-2  text-base font-semibold uppercase">
-            <Link to="/" className="block hover:text-indigo-250">
+            <a href="#about" className="block hover:text-indigo-250">
               Sobre
-            </Link>
-            <Link to="/skills" className="block hover:text-indigo-250">
+            </a>
+            <a href="#skills" className="block hover:text-indigo-250">
               Habilidades
-            </Link>
-            <Link to="/portfolio" className="block hover:text-indigo-250">
+            </a>
+            <a href="#portfolio" className="block hover:text-indigo-250">
               Portfólio
-            </Link>
+            </a>
           </div>
         )
       }

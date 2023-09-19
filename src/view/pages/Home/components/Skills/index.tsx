@@ -1,5 +1,6 @@
-import { MockSkills } from "../../../Mocks/mock";
-import CardSkill from "./components/CardSkill";
+import { MockSkills } from "../../../../../Mocks/mock";
+import CardSkill from "../CardSkills";
+
 
 interface SkillsType {
   id: number,
@@ -13,7 +14,7 @@ export function Skills() {
 
 
   return (
-    <div className="w-full h-full py-16 px-8 flex flex-col text-center">
+    <div className="w-full h-full  flex flex-col text-center">
       <section className="flex flex-col gap-8">
         <div>
           <h1 className="font-semibold text-3xl  text-gray-350">Skills</h1>

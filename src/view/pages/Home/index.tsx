@@ -1,4 +1,4 @@
-import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon } from "@radix-ui/react-icons";
+import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon, ArrowDownIcon } from "@radix-ui/react-icons";
 import { useState } from "react"
 import { cn } from "../../../app/utils/cn"
 import { CardQualification } from "./components/Card/CardQualification"
@@ -6,9 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
 import { useWindowWidth } from "../../../app/hooks/useWindowWidth"
 import { SliderNavigation } from "./components/SliderNavigation"
+import { Skills } from "./components/Skills";
 
 
-export function About() {
+
+export function Home() {
   const windowWidth = useWindowWidth();
   const [selectedTab, setSelectedTab] = useState<'education' | 'work'>('education');
   const [sliderState, setSliderState] = useState({
@@ -17,7 +19,7 @@ export function About() {
   })
   return (
     <div className="w-full h-full py-16 px-8">
-      <section>
+      <section id="about">
         <h1 className="font-semibold text-3xl text-indigo-250 text-left">Sobre</h1>
         <p className="font-medium text-sm text-gray-650 text-left lg:w-[740px] ">Desenvolvedor web apaixonado em  resolver problemas com código. Atuando com tecnologias web/mobile, entregando um trabalho de qualidade.</p>
       </section>
@@ -137,11 +139,6 @@ export function About() {
 
           )}
           {selectedTab === 'work' && (
-            // <CardQualification
-            //   title="Consys Vgm"
-            //   subtitle="Vila Velha - Es"
-            //   year="2017 - 2022"
-            // />
             <Swiper className="relative"
               spaceBetween={16}
               slidesPerView={windowWidth >= 540 ? 4 : 1.6}
@@ -175,7 +172,14 @@ export function About() {
             </Swiper>
           )}
         </div>
+        <section className="flex items-center justify-center mt-6 animate-pulse">
+          <ArrowDownIcon className="w-7 h-7" />
+        </section>
       </section >
+
+      <section id="skills">
+        <Skills />
+      </section>
     </div >
   )
 }

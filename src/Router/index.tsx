@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthLayout } from "../view/layouts/AuthLayout";
-import { About } from "../view/pages/About";
-import { Skills } from "../view/pages/Skills";
+import { Home } from "../view/pages/Home";
 
 
 
@@ -11,9 +10,7 @@ export function Router() {
     <BrowserRouter>
       <Routes>
         <Route element={<AuthLayout />}>
-          <Route path="/" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/portfolio" element={<Skills />} />
+          <Route path="/" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>

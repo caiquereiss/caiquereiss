@@ -33,7 +33,7 @@ export function AuthLayout() {
           <AsidePerfil />
         </aside>
 
-        <div id="outline" className="w-full  md:w-[75%] ">
+        <div id="outline" className="w-full  md:w-[75%]  md:overflow-y-auto">
           <Outlet />
         </div>
       </div>

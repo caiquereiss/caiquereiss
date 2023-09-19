@@ -2,9 +2,16 @@
 import { cn } from "../../../../../app/utils/cn";
 import { RocketIcon } from "@radix-ui/react-icons";
 
+interface SkillsType {
+  id?: number,
+  tech: string,
+  progress: number,
+  color: string;
 
-export default function CardSkill({ tech, progress, color }) {
-  console.log(tech, progress, color)
+}
+
+export default function CardSkill({ tech, progress, color }: SkillsType) {
+  // console.log(tech, progress, color)
   // const widthProgress = `w-[${progress}px]`;
   // const heightProgress = `h-[${progress}px]`;
   return (
