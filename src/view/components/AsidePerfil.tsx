@@ -4,6 +4,8 @@ import CaiqueReis from '../../assets/caique-reis.jpeg';
 import { LinkedInLogoIcon, GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
 
 import { Button } from './Button';
+
+
 export function AsidePerfil() {
   return (
     <div className='w-full h-full  mb-12  relative top-8 md:top-32 '>

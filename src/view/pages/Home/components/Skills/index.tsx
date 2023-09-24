@@ -1,18 +1,16 @@
-import { MockSkills } from "../../../../../Mocks/mock";
+import { MockSkills } from "../../../../../Mocks/MockSkills";
+import { TypeIconSkill } from "../../../../components/icons/TypeIconSkill";
 import CardSkill from "../CardSkills";
 
 
 interface SkillsType {
   id: number,
-  tech: string,
-  progress: number,
+  icon: React.FC<TypeIconSkill>,
+  name: string,
   color: string;
 
 }
 export function Skills() {
-  const skills = MockSkills;
-
-
   return (
     <div className="w-full h-full  flex flex-col text-center">
       <section className="flex flex-col gap-8">
@@ -26,19 +24,19 @@ export function Skills() {
         </div>
       </section>
 
-      <section className="flex gap-10 mt-11 justify-center items-center flex-wrap">
+      <section className="flex gap-10 mt-11 justify-center items-center flex-wrap px-8 md:px-32">
         {
-          skills.map(({ id, tech, progress, color }: SkillsType) => (
+          MockSkills.map(({ id, icon, name, color }: SkillsType) => (
             <CardSkill
               key={id}
-              tech={tech}
-              progress={progress}
+              icon={icon}
+              name={name}
               color={color}
             />
           ))
         }
       </section>
-
     </div >
+
   )
 }

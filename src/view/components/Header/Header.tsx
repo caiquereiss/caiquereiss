@@ -4,7 +4,7 @@ export function Header() {
   const { isMenuOpen, handleToggleMenu } = useHeaderController()
 
   return (
-    <nav id="header" className="p-4 shadow-[1px_1px_20px_-10px_#000] lg:px-36 text-base font-medium text-indigo-250">
+    <nav id="header" className="p-4 shadow-[1px_1px_20px_-10px_#000] lg:px-36 text-base font-medium text-indigo-250 bg-white">
       <div className="flex items-center justify-between" >
         <div>
           <a href="/">
