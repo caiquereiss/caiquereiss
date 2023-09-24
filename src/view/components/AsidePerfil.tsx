@@ -2,7 +2,10 @@
 
 import CaiqueReis from '../../assets/caique-reis.jpeg';
 import { LinkedInLogoIcon, GitHubLogoIcon, InstagramLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+
 import { Button } from './Button';
+
+
 export function AsidePerfil() {
   return (
     <div className='w-full h-full  mb-12  relative top-8 md:top-32 '>
@@ -32,9 +35,12 @@ export function AsidePerfil() {
           </a>
           <a href="https://twitter.com/dosreiscaique" target="_blank">
             <TwitterLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
+
           </a>
         </section>
-        <Button className='bg-indigo-250 font-semibold text-base'>Contate-me</Button>
+        <a href="https://api.whatsapp.com/send?phone=27999814325" target="_blank" rel="noopener noreferrer">
+          <Button className='bg-indigo-250 font-semibold text-base'>Contate-me</Button>
+        </a>
       </div>
     </div>
   )
