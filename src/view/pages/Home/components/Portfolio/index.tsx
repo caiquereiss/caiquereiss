@@ -3,6 +3,7 @@ import 'swiper/css';
 import { SliderNavigation } from '../SliderNavigation';
 import ModernWeb from '../../../../../assets/modern-web.png'
 import { usePortfolioController } from './usePortfolioController';
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export function Portfolio() {
   const { sliderState, setSliderState } = usePortfolioController()
@@ -16,7 +17,7 @@ export function Portfolio() {
       </section>
 
 
-      <section>
+      <section className="py-6">
         <Swiper className="relative"
           spaceBetween={16}
           slidesPerView={1}
@@ -36,7 +37,7 @@ export function Portfolio() {
           />
 
           <SwiperSlide>
-            <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-4 mt-16 px-6">
+            <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-4 mt-16 px-6 ">
               <div className="w-64 md:w-[428px] h-52 md:h-60 sm:ml-6 ">
                 <img className='w-full h-full' src={ModernWeb} alt="" />
               </div>
@@ -44,6 +45,16 @@ export function Portfolio() {
               <div className="mt-8 flex flex-col gap-5 ">
                 <h1 className="font-semibold text-2xl text-gray-350 dark:text-gray-100">Modern Website</h1>
                 <p className="text-sm font-medium text-gray-650 text-center md:text-left dark:text-gray-100">Website adaptable to all devices, with UI components and animated interactions</p>
+
+                <div className="flex gap-5">
+                  <a href="https://github.com/caiquereiss" target="_blank">
+                    <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
+                  </a>
+                  <a href="https://github.com/caiquereiss" target="_blank">
+                    <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
+                  </a>
+
+                </div>
               </div>
             </div>
           </SwiperSlide>

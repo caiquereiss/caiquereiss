@@ -42,28 +42,36 @@ export function Header() {
           </button>
         </div>
         <div className="hidden md:flex space-x-4 text-base font-semibold uppercase">
-          <a href="#about" className="py-1  hover:text-indigo-250">
+          <a href="#about" className="py-1  hover:text-indigo-450">
             Sobre
           </a>
-          <a href="#skills" className="py-1  hover:text-indigo-250">
+          <a href="#skills" className="py-1  hover:text-indigo-450">
             Habilidades
           </a>
-          <a href="#portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-250">
+          <a href="#portfolio" className="px-2 py-1 flex items-center justify-center  hover:text-indigo-450">
             Portfólio
+          </a>
+          <a href="https://drive.google.com/file/d/1g6OhFWJb0_VVeK3e6NlJm4niqU35aFuT/view?usp=sharing"
+            target="_blank"
+            className="flex items-center text-xs justify-center  hover:text-indigo-450 border rounded-full py-2 px-3 border-indigo-250">
+            Currículo
           </a>
         </div>
       </div >
       {
         isMenuOpen && (
           <div className="md:hidden mt-4 space-y-2  text-base font-semibold uppercase">
-            <a href="#about" className="block hover:text-indigo-250">
+            <a href="#about" className="block hover:text-indigo-450">
               Sobre
             </a>
-            <a href="#skills" className="block hover:text-indigo-250">
+            <a href="#skills" className="block hover:text-indigo-450">
               Habilidades
             </a>
-            <a href="#portfolio" className="block hover:text-indigo-250">
+            <a href="#portfolio" className="block hover:text-indigo-450">
               Portfólio
+            </a>
+            <a href="https://drive.google.com/file/d/1g6OhFWJb0_VVeK3e6NlJm4niqU35aFuT/view?usp=sharing" className="flex items-center text-sm justify-center  hover:text-indigo-450 border rounded-full py-2 px-2 border-indigo-250">
+              Currículo
             </a>
           </div>
         )
