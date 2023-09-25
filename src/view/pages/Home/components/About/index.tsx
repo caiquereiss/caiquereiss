@@ -1,24 +1,21 @@
 import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon } from "@radix-ui/react-icons";
-import { useState } from "react"
-
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
-import { useWindowWidth } from "../../../../../app/hooks/useWindowWidth";
 import { cn } from "../../../../../app/utils/cn";
 import { SliderNavigation } from "../SliderNavigation";
 import { CardQualification } from "../Card/CardQualification";
 import { AsidePerfil } from "../../../../components/AsidePerfil";
+import { useAboutController } from "./useAboutController";
 
 
 
 
 export function About() {
-  const windowWidth = useWindowWidth();
-  const [selectedTab, setSelectedTab] = useState<'education' | 'work'>('education');
-  const [sliderState, setSliderState] = useState({
-    isBeginning: true,
-    isEnd: false,
-  })
+  const { windowWidth,
+    selectedTab,
+    setSelectedTab,
+    sliderState,
+    setSliderState } = useAboutController()
   return (
     <div id="about" className="w-full h-full flex flex-col md:flex-row">
       <div className="w-full h-full md:w-[25%] mt-16 md:mt-0">
