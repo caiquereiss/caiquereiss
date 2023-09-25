@@ -12,7 +12,7 @@ import { Portfolio } from "./components/Portfolio";
 export function Home() {
   return (
 
-    <div className="w-full h-full">
+    <div className="w-full dark:bg-violet-900" >
       <header className="z-50 fixed w-full">
         <Header />
       </header>
@@ -34,7 +34,7 @@ export function Home() {
         <DoubleArrowDownIcon className="w-9 h-9 text-indigo-250" />
       </section>
 
-      <section id="portfolio">
+      <section className="mt-6 mb-6" id="portfolio">
         <Portfolio />
       </section>
     </div >

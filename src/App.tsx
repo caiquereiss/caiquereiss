@@ -1,9 +1,11 @@
 import { Router } from "./Router"
+import { ThemeProvider } from "./app/context/ThemeContext"
 
 function App() {
-
   return (
-    <Router></Router>
+    <ThemeProvider>
+      <Router></Router>
+    </ThemeProvider>
   )
 }
 
