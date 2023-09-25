@@ -9,7 +9,6 @@ export function CardQualification({ title, subtitle, year }: TypeCardQualificati
   return (
     <div className="w-full max-w-[200px] h-[150px] border border-gray-250 rounded-[10px]  flex flex-col justify-between py-[10px] px-[10px]">
       <p className="w-20 font-semibold text-sm text-gray-650" >{title}</p>
-      {/* className="w-[200px] h-[150px]" */}
       <div>
         <span className="font-medium text-sm">{subtitle}</span>
         <div className="flex items-center text-gray-650 gap-[5px]">
