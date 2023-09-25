@@ -12,7 +12,7 @@ import { Portfolio } from "./components/Portfolio";
 export function Home() {
   return (
 
-    <div className="w-full h-full">
+    <div className="w-full dark:bg-violet-900" >
       <header className="z-50 fixed w-full">
         <Header />
       </header>

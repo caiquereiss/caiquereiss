@@ -10,8 +10,8 @@ export function Portfolio() {
     <div id="portfolio" className="w-full h-full mt-16 flex flex-col text-center">
       <section className="flex flex-col gap-8">
         <div>
-          <h1 className="font-semibold text-[32px] text-gray-350">Portfólio</h1>
-          <p className="text-sm font-medium text-gray-650">Meu trabalho recente</p>
+          <h1 className="font-semibold text-[32px] text-indigo-250">Portfólio</h1>
+          <p className="text-sm font-medium text-gray-650 dark:text-gray-100">Meu trabalho recente</p>
         </div>
       </section>
 
@@ -42,8 +42,8 @@ export function Portfolio() {
               </div>
 
               <div className="mt-8 flex flex-col gap-5 ">
-                <h1 className="font-semibold text-2xl text-gray-350">Modern Website</h1>
-                <p className="text-sm font-medium text-gray-650 text-center md:text-left">Website adaptable to all devices, with UI components and animated interactions</p>
+                <h1 className="font-semibold text-2xl text-gray-350 dark:text-gray-100">Modern Website</h1>
+                <p className="text-sm font-medium text-gray-650 text-center md:text-left dark:text-gray-100">Website adaptable to all devices, with UI components and animated interactions</p>
               </div>
             </div>
           </SwiperSlide>

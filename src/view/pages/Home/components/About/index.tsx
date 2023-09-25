@@ -24,31 +24,31 @@ export function About() {
       <div className="w-full  md:w-[75%]  mt-28  px-8">
         <section>
           <h1 className="font-semibold text-[32px] text-indigo-250 text-left">Sobre</h1>
-          <p className="font-medium text-sm text-gray-650 text-left lg:w-[740px] ">Desenvolvedor web apaixonado em  resolver problemas com código. Atuando com tecnologias web/mobile, entregando um trabalho de qualidade.</p>
+          <p className="font-medium text-sm text-gray-650 text-left lg:w-[740px] dark:text-gray-100">Desenvolvedor web apaixonado em  resolver problemas com código. Atuando com tecnologias web/mobile, entregando um trabalho de qualidade.</p>
         </section>
 
         <section className="flex mt-3">
-          <div className="h-[150px] w-[200px] flex justify-around flex-col ">
-            <RocketIcon className="text-gray-350 w-5 h-5" />
-            <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
-              <span className="font-medium text-sm text-gray-350">Anos experiência</span>
-              <span className="font-bold text-3xl text-gray-350 flex items-end">2</span>
+          <div className="h-[150px] w-[200px] flex justify-around flex-col">
+            <RocketIcon className="text-gray-350 w-5 h-5 dark:text-gray-100" />
+            <p className="w-20 flex gap-5 flex-col-reverse md:flex-row ">
+              <span className="font-medium text-sm text-gray-350 dark:text-gray-100">Anos experiência</span>
+              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">2</span>
             </p>
           </div>
 
           <div className="h-[150px] w-[200px] flex justify-around flex-col">
-            <ArchiveIcon className="text-gray-350 w-5 h-5" />
+            <ArchiveIcon className="text-gray-350 w-5 h-5 dark:text-gray-100" />
             <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
-              <span className="font-medium text-sm text-gray-350">Projetos concluídos</span>
-              <span className="font-bold text-3xl text-gray-350 flex items-end">5</span>
+              <span className="font-medium text-sm text-gray-350 dark:text-gray-100">Projetos concluídos</span>
+              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">5</span>
             </p>
           </div>
 
           <div className="h-[150px] w-[200px] flex justify-around flex-col">
-            <HomeIcon className="text-gray-350 w-5 h-5" />
+            <HomeIcon className="text-gray-350 w-5 h-5 dark:text-gray-100" />
             <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
-              <span className="font-medium text-sm text-gray-350">Empresas trabalhadas</span>
-              <span className="font-bold text-3xl text-gray-350 flex items-end">2</span>
+              <span className="font-medium text-sm text-gray-350 dark:text-gray-100">Empresas trabalhadas</span>
+              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">2</span>
             </p>
           </div>
         </section>
@@ -56,13 +56,13 @@ export function About() {
         <section>
 
           <div className="mt-20">
-            <span className="font-semibold text-[32px] text-indigo-250 mr-2">Qualificações</span>
-            <small className="font-medium text-gray-650 text-xs ">Minha jornada pessoal</small>
+            <span className="font-semibold text-[32px] text-indigo-250 mr-2 ">Qualificações</span>
+            <small className="font-medium text-gray-650 text-xs dark:text-gray-100">Minha jornada pessoal</small>
 
             <div className="w-full flex gap-10 mt-5 ">
               <button className={cn(
-                'flex items-center justify-center gap-1 text-gray-350 ',
-                selectedTab === 'education' && 'text-indigo-250'
+                'flex items-center justify-center gap-1 text-gray-350 dark:text-gray-100',
+                selectedTab === 'education' && 'text-indigo-250 dark:text-indigo-250'
               )}
                 onClick={() => setSelectedTab('education')}>
                 <FileIcon className="w-5 h-5" />
@@ -71,8 +71,8 @@ export function About() {
 
               <button
                 className={cn(
-                  'flex items-center justify-center gap-1 text-gray-350 ',
-                  selectedTab === 'work' && 'text-indigo-250'
+                  'flex items-center justify-center gap-1 text-gray-350 dark:text-gray-100 ',
+                  selectedTab === 'work' && 'text-indigo-250 dark:text-indigo-250'
                 )}
                 onClick={() => setSelectedTab('work')}>
                 <BackpackIcon className="w-5 h-5" />
