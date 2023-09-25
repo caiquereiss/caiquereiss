@@ -1,5 +1,6 @@
 import { MoonIcon, SunIcon } from "@radix-ui/react-icons"
 import { useHeaderController } from "./useHeaderController"
+import { Logo } from "../Logo";
 
 export function Header() {
   const { isMenuOpen, handleToggleMenu, theme, toggleTheme } = useHeaderController();
@@ -8,9 +9,12 @@ export function Header() {
   return (
     <nav id="header" className="p-4 shadow-[1px_1px_14px_-9px_#000] lg:px-36 text-base font-medium text-indigo-250 bg-white gap-4 dark:bg-violet-900">
       <div className="flex items-center justify-between" >
-        <div className="flex-1">
+        <div className="flex-1 items-center">
           <a href="/">
-            <h1 className="text-4xl font-semibold text-indigo-250">Caique Reis</h1>
+            <div className="text-3xl font-semibold text-indigo-250">
+              <div className="absolute top-[0.1rem]"> <Logo className="w-6 h-6" /></div>
+              <span>Caique Reis</span>
+            </div>
           </a>
         </div>
         <div className="relative ml-6 right-4" onClick={toggleTheme}>

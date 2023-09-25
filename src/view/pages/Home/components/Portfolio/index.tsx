@@ -50,10 +50,6 @@ export function Portfolio() {
                   <a href="https://github.com/caiquereiss" target="_blank">
                     <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
                   </a>
-                  <a href="https://github.com/caiquereiss" target="_blank">
-                    <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
-                  </a>
-
                 </div>
               </div>
             </div>

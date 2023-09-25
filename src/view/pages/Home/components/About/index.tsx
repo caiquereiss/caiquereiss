@@ -98,6 +98,7 @@ export function About() {
               >
                 <div slot="container-start">
                   <SliderNavigation
+                    className="gap-1 mb-1 mt-1"
                     isBeginning={sliderState.isBeginning}
                     isEnd={sliderState.isEnd}
                     positionButton="top"
@@ -112,30 +113,44 @@ export function About() {
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="Gostack - Bootcamp"
+                    subtitle="EAD - RocketSeat"
+                    year="2018 - 2019"
                   />
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="Discover"
+                    subtitle="EAD - RocketSeat"
+                    year="2019 - 2019"
                   />
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="Ignite - Node"
+                    subtitle="EAD - RocketSeat"
+                    year="2020 - 2020"
                   />
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="JStack - FullStack"
+                    subtitle="EAD - Matheus Silva"
+                    year="2022 - 2023"
+                  />
+                </SwiperSlide>
+                <SwiperSlide >
+                  <CardQualification
+                    title="Web Moderno"
+                    subtitle="EAD - Cod3er"
+                    year="2022 - 2023"
+                  />
+                </SwiperSlide>
+                <SwiperSlide >
+                  <CardQualification
+                    title="Mundo Figma"
+                    subtitle="EAD - Mundo Figma"
+                    year="2022 - 2023"
                   />
                 </SwiperSlide>
               </Swiper>
@@ -162,16 +177,23 @@ export function About() {
                 </div>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="Estagio Suporte técnico"
+                    subtitle="Vila Velha - VGM-Consys"
+                    year="2018 - 2019"
                   />
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Sistema de informação"
-                    subtitle="Vitória - Unisales"
-                    year="2018 - 2022"
+                    title="Técnico de Informática"
+                    subtitle="Vila Velha - VGM-Consys"
+                    year="2019 - 2022"
+                  />
+                </SwiperSlide>
+                <SwiperSlide >
+                  <CardQualification
+                    title="Desenvolvedor FullStack/Mobile"
+                    subtitle="Vila Velha - VGM-Consys"
+                    year="2022 - ..."
                   />
                 </SwiperSlide>
               </Swiper>
