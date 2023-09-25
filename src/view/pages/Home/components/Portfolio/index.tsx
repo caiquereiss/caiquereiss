@@ -1,15 +1,13 @@
 
-import ModernWeb from '../../../../../assets/modern-web.png'
+import { useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react"
 import 'swiper/css';
 import { SliderNavigation } from '../SliderNavigation';
-import { useState } from 'react';
+import ModernWeb from '../../../../../assets/modern-web.png'
+import { usePortfolioController } from './usePortfolioController';
 
 export function Portfolio() {
-  const [sliderState, setSliderState] = useState({
-    isBeginning: true,
-    isEnd: false,
-  })
+  const { sliderState, setSliderState } = usePortfolioController()
   return (
     <div id="portfolio" className="w-full h-full mt-16 flex flex-col text-center">
       <section className="flex flex-col gap-8">
@@ -33,7 +31,6 @@ export function Portfolio() {
         >
 
           <SliderNavigation
-            // className='justify-between'
             isBeginning={sliderState.isBeginning}
             isEnd={sliderState.isEnd}
             positionButton='center'
