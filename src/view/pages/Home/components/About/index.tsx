@@ -20,13 +20,13 @@ export function About() {
     isEnd: false,
   })
   return (
-    <div className="w-full h-full flex flex-col md:flex-row">
+    <div id="about" className="w-full h-full flex flex-col md:flex-row">
       <div className="w-full h-full md:w-[25%] mt-16 md:mt-0">
         <AsidePerfil />
       </div>
       <div className="w-full  md:w-[75%]  mt-28  px-8">
         <section>
-          <h1 className="font-semibold text-3xl text-indigo-250 text-left">Sobre</h1>
+          <h1 className="font-semibold text-[32px] text-indigo-250 text-left">Sobre</h1>
           <p className="font-medium text-sm text-gray-650 text-left lg:w-[740px] ">Desenvolvedor web apaixonado em  resolver problemas com código. Atuando com tecnologias web/mobile, entregando um trabalho de qualidade.</p>
         </section>
 
@@ -59,7 +59,7 @@ export function About() {
         <section>
 
           <div className="mt-20">
-            <span className="font-semibold text-3xl text-indigo-250 mr-2">Qualificações</span>
+            <span className="font-semibold text-[32px] text-indigo-250 mr-2">Qualificações</span>
             <small className="font-medium text-gray-650 text-xs ">Minha jornada pessoal</small>
 
             <div className="w-full flex gap-10 mt-5 ">
@@ -103,6 +103,7 @@ export function About() {
                   <SliderNavigation
                     isBeginning={sliderState.isBeginning}
                     isEnd={sliderState.isEnd}
+                    positionButton="top"
                   />
                 </div>
                 <SwiperSlide >
@@ -159,6 +160,7 @@ export function About() {
                   <SliderNavigation
                     isBeginning={sliderState.isBeginning}
                     isEnd={sliderState.isEnd}
+                    positionButton="top"
                   />
                 </div>
                 <SwiperSlide >
