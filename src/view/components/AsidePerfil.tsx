@@ -14,11 +14,11 @@ export function AsidePerfil() {
 
         <section className='w-full flex flex-col justify-center items-center font-semibold'>
           <h1 className='text-2xl text-indigo-250'>Caique Reis</h1>
-          <span className='text-base mt-1'>FullStack Developer</span>
+          <span className='text-base mt-1 dark:text-gray-100'>FullStack Developer</span>
         </section>
 
         <section className='text-center'>
-          <span className='text-gray-650 font-medium text-base text-center'>Expertise sólida em  desenvolvimento web/mobile, moldando a experiência digital.</span>
+          <span className='text-gray-650 font-medium text-base text-center dark:text-gray-100'>Expertise sólida em  desenvolvimento web/mobile, moldando a experiência digital.</span>
         </section>
       </div>
 
@@ -39,7 +39,7 @@ export function AsidePerfil() {
           </a>
         </section>
         <a href="https://api.whatsapp.com/send?phone=27999814325" target="_blank" rel="noopener noreferrer">
-          <Button className='bg-indigo-250 font-semibold text-base'>Contate-me</Button>
+          <Button className='bg-indigo-250 hover:bg-indigo-450 font-semibold text-base'>Contate-me</Button>
         </a>
       </div>
     </div>

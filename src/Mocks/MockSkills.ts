@@ -1,6 +1,7 @@
 import { AngularIcon } from "../view/components/icons/AngularIcon"
 import { CssIcon } from "../view/components/icons/CssIcon"
 import { DockerIcon } from "../view/components/icons/DockerIcon"
+import { FigmaIcon } from "../view/components/icons/FigmaIcon"
 import { HtmlIcon } from "../view/components/icons/HtmlIcon"
 import { IonicIcon } from "../view/components/icons/IonicIcon"
 import { JavaScriptIcon } from "../view/components/icons/JavaScriptIcon"
@@ -106,5 +107,11 @@ export const MockSkills = [
     icon: DockerIcon,
     name: 'Docker',
     color: '#2496ED'
+  },
+  {
+    id: 16,
+    icon: FigmaIcon,
+    name: 'Figma',
+    color: '#F24E1E'
   },
 ]

@@ -15,12 +15,12 @@ export function Skills() {
     <div id="skills" className="w-full h-full mt-16 flex flex-col text-center">
       <section className="flex flex-col gap-8">
         <div>
-          <h1 className="font-semibold text-[32px]  text-gray-350">Skills</h1>
-          <p className="text-sm font-medium text-gray-650">Meu nível técnico</p>
+          <h1 className="font-semibold text-[32px]  text-indigo-250 ">Skills</h1>
+          <p className="text-sm font-medium text-gray-650 dark:text-gray-100">Meu nível técnico</p>
         </div>
         <div className="flex flex-col">
-          <span className="font-semibold text-base  text-gray-350">FullStack Developer</span>
-          <small className="text-sm font-medium text-gray-650">Mais de 2 anos</small>
+          <span className="font-semibold text-base  text-gray-350 dark:text-gray-100">FullStack Developer</span>
+          <small className="text-sm font-medium text-gray-650 dark:text-gray-100">Mais de 2 anos</small>
         </div>
       </section>
 
