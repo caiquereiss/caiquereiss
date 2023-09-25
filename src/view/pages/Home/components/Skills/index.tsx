@@ -12,10 +12,10 @@ interface SkillsType {
 }
 export function Skills() {
   return (
-    <div className="w-full h-full  flex flex-col text-center">
+    <div id="skills" className="w-full h-full mt-16 flex flex-col text-center">
       <section className="flex flex-col gap-8">
         <div>
-          <h1 className="font-semibold text-3xl  text-gray-350">Skills</h1>
+          <h1 className="font-semibold text-[32px]  text-gray-350">Skills</h1>
           <p className="text-sm font-medium text-gray-650">Meu nível técnico</p>
         </div>
         <div className="flex flex-col">
