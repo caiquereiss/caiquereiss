@@ -24,7 +24,7 @@ export function Skills() {
         </div>
       </section>
 
-      <section className="flex gap-10 mt-11 justify-center items-center flex-wrap px-8 md:px-32">
+      <section className="flex flex-wrap justify-center gap-8 md:gap-10 px-4 mt-11  md:px-32    ">
         {
           MockSkills.map(({ id, icon, name, color }: SkillsType) => (
             <CardSkill
