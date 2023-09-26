@@ -13,7 +13,7 @@ export default function CardSkill({ icon: IconComponent, name, color }: SkillsTy
       <IconComponent className="w-12 h-12 md:text-5xl text-4xl my-2 cursor-pointer"
         style={{ color: color }} />
 
-      <p className="dark:text-gray-100">{name}</p>
+      <p className="text-sm  md:text-base font-normal my-2 md:my-4 dark:text-gray-100 ">{name}</p>
     </div>
 
   )

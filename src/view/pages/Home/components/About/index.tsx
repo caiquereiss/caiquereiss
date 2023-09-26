@@ -86,7 +86,7 @@ export function About() {
           <div>
             {selectedTab === 'education' && (
 
-              <Swiper className="relative"
+              <Swiper className="relative cursor-default"
                 spaceBetween={16}
                 slidesPerView={windowWidth >= 540 ? 4 : 1.6}
                 onSlideChange={swiper => {
@@ -170,6 +170,7 @@ export function About() {
               >
                 <div slot="container-start">
                   <SliderNavigation
+                    className="gap-1 mb-1 mt-1"
                     isBeginning={sliderState.isBeginning}
                     isEnd={sliderState.isEnd}
                     positionButton="top"
@@ -177,11 +178,12 @@ export function About() {
                 </div>
                 <SwiperSlide >
                   <CardQualification
-                    title="Estagio Suporte técnico"
-                    subtitle="Vila Velha - VGM-Consys"
-                    year="2018 - 2019"
+                    title="Desenvolvedor FullStack/Mobile"
+                    subtitle="Vitória - MitoGames"
+                    year="2022 - ..."
                   />
                 </SwiperSlide>
+
                 <SwiperSlide >
                   <CardQualification
                     title="Técnico de Informática"
@@ -191,9 +193,9 @@ export function About() {
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Desenvolvedor FullStack/Mobile"
+                    title="Estagio Suporte técnico"
                     subtitle="Vila Velha - VGM-Consys"
-                    year="2022 - ..."
+                    year="2018 - 2019"
                   />
                 </SwiperSlide>
               </Swiper>
