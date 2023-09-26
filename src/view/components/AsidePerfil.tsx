@@ -24,22 +24,22 @@ export function AsidePerfil() {
 
       <div className="flex w-[163px]  flex-col justify-center items-center gap-8 mx-auto my-0 mt-9 ">
         <section className='flex justify-center items-center gap-3'>
-          <a href="https://www.linkedin.com/in/dosreiscaique/" target="_blank">
+          <a className='hover:opacity-80' href="https://www.linkedin.com/in/dosreiscaique/" target="_blank">
             <LinkedInLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
           </a>
-          <a href="https://github.com/caiquereiss" target="_blank">
+          <a className='hover:opacity-80' href="https://github.com/caiquereiss" target="_blank">
             <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
           </a>
-          <a href="https://www.instagram.com/caequereis/" target="_blank">
+          <a className='hover:opacity-80' href="https://www.instagram.com/caequereis/" target="_blank">
             <InstagramLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
           </a>
-          <a href="https://twitter.com/dosreiscaique" target="_blank">
+          <a className='hover:opacity-80' href="https://twitter.com/dosreiscaique" target="_blank">
             <TwitterLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
 
           </a>
         </section>
         <a href="https://api.whatsapp.com/send?phone=27999814325" target="_blank" rel="noopener noreferrer">
-          <Button className='bg-indigo-250 hover:bg-indigo-450 font-semibold text-base'>Contate-me</Button>
+          <Button className='bg-indigo-250 hover:bg-indigo-300 font-semibold text-base'>Contate-me</Button>
         </a>
       </div>
     </div>

@@ -86,7 +86,7 @@ export function About() {
           <div>
             {selectedTab === 'education' && (
 
-              <Swiper className="relative"
+              <Swiper className="relative cursor-default"
                 spaceBetween={16}
                 slidesPerView={windowWidth >= 540 ? 4 : 1.6}
                 onSlideChange={swiper => {
@@ -170,6 +170,7 @@ export function About() {
               >
                 <div slot="container-start">
                   <SliderNavigation
+                    className="gap-1 mb-1 mt-1"
                     isBeginning={sliderState.isBeginning}
                     isEnd={sliderState.isEnd}
                     positionButton="top"
