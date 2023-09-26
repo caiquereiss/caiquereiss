@@ -37,7 +37,7 @@ export function Portfolio() {
           />
 
           <SwiperSlide>
-            <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-4 mt-16 px-6 ">
+            <div className="flex flex-col items-center md:items-start md:flex-row justify-center gap-4 mt-6 md:mt-16 px-6 ">
               <div className="w-64 md:w-[428px] h-52 md:h-60 sm:ml-6 ">
                 <img className='w-full h-full' src={ModernWeb} alt="" />
               </div>
