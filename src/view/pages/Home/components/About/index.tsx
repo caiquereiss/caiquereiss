@@ -177,11 +177,12 @@ export function About() {
                 </div>
                 <SwiperSlide >
                   <CardQualification
-                    title="Estagio Suporte técnico"
-                    subtitle="Vila Velha - VGM-Consys"
-                    year="2018 - 2019"
+                    title="Desenvolvedor FullStack/Mobile"
+                    subtitle="Vitória - MitoGames"
+                    year="2022 - ..."
                   />
                 </SwiperSlide>
+
                 <SwiperSlide >
                   <CardQualification
                     title="Técnico de Informática"
@@ -191,9 +192,9 @@ export function About() {
                 </SwiperSlide>
                 <SwiperSlide >
                   <CardQualification
-                    title="Desenvolvedor FullStack/Mobile"
+                    title="Estagio Suporte técnico"
                     subtitle="Vila Velha - VGM-Consys"
-                    year="2022 - ..."
+                    year="2018 - 2019"
                   />
                 </SwiperSlide>
               </Swiper>

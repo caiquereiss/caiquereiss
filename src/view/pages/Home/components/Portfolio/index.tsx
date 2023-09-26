@@ -46,7 +46,7 @@ export function Portfolio() {
                 <h1 className="font-semibold text-2xl text-gray-350 dark:text-gray-100">Modern Website</h1>
                 <p className="text-sm font-medium text-gray-650 text-center md:text-left dark:text-gray-100">Website adaptable to all devices, with UI components and animated interactions</p>
 
-                <div className="flex gap-5">
+                <div className="flex gap-5 items-center justify-center md:justify-start">
                   <a href="https://github.com/caiquereiss" target="_blank">
                     <GitHubLogoIcon className='w-[30px] h-[30px] text-indigo-250' />
                   </a>
