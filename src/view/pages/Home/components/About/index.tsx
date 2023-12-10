@@ -1,10 +1,10 @@
-import { RocketIcon, HomeIcon, ArchiveIcon, FileIcon, BackpackIcon } from "@radix-ui/react-icons";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { ArchiveIcon, BackpackIcon, FileIcon, HomeIcon, RocketIcon } from "@radix-ui/react-icons";
 import 'swiper/css';
+import { Swiper, SwiperSlide } from "swiper/react";
 import { cn } from "../../../../../app/utils/cn";
-import { SliderNavigation } from "../SliderNavigation";
-import { CardQualification } from "../Card/CardQualification";
 import { AsidePerfil } from "../../../../components/AsidePerfil";
+import { CardQualification } from "../Card/CardQualification";
+import { SliderNavigation } from "../SliderNavigation";
 import { useAboutController } from "./useAboutController";
 
 
@@ -40,7 +40,7 @@ export function About() {
             <ArchiveIcon className="text-gray-350 w-5 h-5 dark:text-gray-100" />
             <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
               <span className="font-medium text-sm text-gray-350 dark:text-gray-100">Projetos concluídos</span>
-              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">5</span>
+              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">7</span>
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export function About() {
             <HomeIcon className="text-gray-350 w-5 h-5 dark:text-gray-100" />
             <p className="w-20 flex gap-5 flex-col-reverse md:flex-row">
               <span className="font-medium text-sm text-gray-350 dark:text-gray-100">Empresas trabalhadas</span>
-              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">2</span>
+              <span className="font-bold text-3xl text-gray-350 flex items-end dark:text-gray-100">3</span>
             </p>
           </div>
         </section>
@@ -87,8 +87,8 @@ export function About() {
             {selectedTab === 'education' && (
 
               <Swiper className="relative cursor-default"
-                spaceBetween={16}
-                slidesPerView={windowWidth >= 540 ? 4 : 1.6}
+                spaceBetween={10}
+                slidesPerView={windowWidth >= 540 ? 5 : 1.6}
                 onSlideChange={swiper => {
                   setSliderState({
                     isBeginning: swiper.isBeginning,
@@ -159,8 +159,8 @@ export function About() {
             )}
             {selectedTab === 'work' && (
               <Swiper className="relative"
-                spaceBetween={16}
-                slidesPerView={windowWidth >= 540 ? 4 : 1.6}
+                spaceBetween={10}
+                slidesPerView={windowWidth >= 540 ? 5 : 1.6}
                 onSlideChange={swiper => {
                   setSliderState({
                     isBeginning: swiper.isBeginning,
@@ -178,9 +178,16 @@ export function About() {
                 </div>
                 <SwiperSlide >
                   <CardQualification
+                    title="Software Developer"
+                    subtitle="Vila Velha - Globalsys"
+                    year="2023 - ..."
+                  />
+                </SwiperSlide>
+                <SwiperSlide >
+                  <CardQualification
                     title="Desenvolvedor FullStack/Mobile"
                     subtitle="Vitória - MitoGames"
-                    year="2022 - ..."
+                    year="2022 - 2023"
                   />
                 </SwiperSlide>
 

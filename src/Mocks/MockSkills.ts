@@ -2,11 +2,13 @@ import { AngularIcon } from "../view/components/icons/AngularIcon"
 import { CssIcon } from "../view/components/icons/CssIcon"
 import { DockerIcon } from "../view/components/icons/DockerIcon"
 import { FigmaIcon } from "../view/components/icons/FigmaIcon"
+import { GraphQlIcon } from "../view/components/icons/GraphQlIcon"
 import { HtmlIcon } from "../view/components/icons/HtmlIcon"
 import { IonicIcon } from "../view/components/icons/IonicIcon"
 import { JavaScriptIcon } from "../view/components/icons/JavaScriptIcon"
 import { MongoDBIcon } from "../view/components/icons/MongoDBIcon"
 import { NestjsIcon } from "../view/components/icons/NestjsIcon"
+import { NextIcon } from "../view/components/icons/NextIcon"
 import { NodejsIcon } from "../view/components/icons/NodejsIcon"
 import { PostgreSqlIcon } from "../view/components/icons/PostgreSqlIcon"
 import { PrismaIcon } from "../view/components/icons/PrismaIcon"
@@ -113,5 +115,17 @@ export const MockSkills = [
     icon: FigmaIcon,
     name: 'Figma',
     color: '#F24E1E'
+  },
+  {
+    id: 17,
+    icon: NextIcon,
+    name: 'NextJs',
+    color: '#000000'
+  },
+  {
+    id: 18,
+    icon: GraphQlIcon,
+    name: 'graphql',
+    color: '#E10098'
   },
 ]
